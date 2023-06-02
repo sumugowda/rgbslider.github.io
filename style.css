@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppin",sans-serif;
+}
+body{
+    background-image:url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    border: 1px solid;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    margin: 60px;
+    padding: 30px;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 40px;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.slider{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    margin-bottom: 3px;
+
+}
+.result{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+#text{
+    background: transparent;
+}
+.result button{
+    background-color: transparent;
+    color: #fff;
+    border-radius: 30px;
+    padding: 6px;
+    font-size: 1.1em;
+    transition: .3s all ease;
+    cursor: pointer;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    outline: none;
+    border: none;
+}
+.slider #red{
+    accent-color: red;
+}
+.slider #green{
+    accent-color: green;
+}
+.slider #blue{
+    accent-color: blue;
+}
+.result button:hover{
+    background-color: transparent;
+}
+#text::selection{
+    background-color: transparent;
+}
+.pcontainer{
+    border: 1px #fff;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    background: #fff;
+    padding: 160px 140px;
+    border-radius: 30px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+#p{
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: large;
+}
